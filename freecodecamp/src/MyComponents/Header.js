@@ -38,7 +38,7 @@ const Header = () => {
             </ul>
           </li>
 
-          <button className="navbar-brand text-info btn btn-outline-light" ><span><NavLink to="/login">SignIn</NavLink></span></button>
+          <button className="navbar-brand text-info btn btn-outline-light" ><span><NavLink style={{textDecoration:'none'}} to="/login">SignIn</NavLink></span></button>
 
         </ul>
       </div>
